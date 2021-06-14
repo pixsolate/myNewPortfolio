@@ -1,5 +1,4 @@
 const rightMenu =`
-<div class="right-menu">
 <div class="outer">
   <div class="inner">
     <div class="row">
@@ -23,9 +22,8 @@ const rightMenu =`
   <div class="menu-text">Email</div>
   <a href="mailto:federod2001@gmail.com">federod2001@gmail.com</a>
 </div>
-</div>
 `;
 
 const menuRight = document.querySelector(".overlay-bg");
 
-menuRight.innerHTML = rightMenu;
+menuRight.innerHTML = rightMenu
