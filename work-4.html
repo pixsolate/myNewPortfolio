@@ -44,15 +44,90 @@
     </div>
 
     <!-- HEADER -->
-    <header class="half-menu"></header>
-
+    <header class="half-menu">
+      <div class="header-container">
+        <!-- Logo -->
+        <a
+          href="index.html"
+          data-type="ajax-load"
+          class="logo magnetize"
+          data-dist="3"
+          data-cursor-type="medium"
+        >
+          <img
+            class="white-logo"
+            data-dist="4"
+            data-cursor-type="medium"
+            data-cursor-text=""
+            src="images/logo.png"
+            alt=""
+          />
+          <img
+            class="dark-logo"
+            data-dist="4"
+            data-cursor-type="medium"
+            data-cursor-text=""
+            src="images/logo-dark.png"
+            alt=""
+          />
+        </a>
+        <div class="nav-icon magnetize" data-dist="3" data-cursor-type="medium">
+          <div class="nav-icon-inner" data-cursor-type="medium">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- Right Menu -->
     <div
       class="overlay-bg"
       data-cursor-text="CLOSE"
       data-cursor-type="big"
     ></div>
-    <div class="right-menu"></div>
+    <div class="right-menu">
+      <div class="outer">
+        <div class="inner">
+          <div class="row">
+            <!-- Social Links -->
+            <ul class="social col-xl-4 offset-xl-1 col-md-4 offset-md-1">
+              <li class="menu-text">Social</li>
+              <li>
+                <a
+                  data-cursor-type="medium"
+                  href="https://www.linkedin.com/in/federico-rodriguez-197b4182/"
+                  style="cursor: none"
+                  >Linkedin</a
+                >
+              </li>
+            </ul>
+            <!-- Nav Menu -->
+            <nav class="col-xl-6 col-md-6 col-sm-5 offset-sm-1">
+              <ul>
+                <li class="menu-text">Menu</li>
+                <li>
+                  <a
+                    data-type="ajax-load"
+                    data-cursor-type="medium"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a data-cursor-type="medium" href="contact.html"
+                    >Contact Me</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-mail">
+        <div class="menu-text">Email</div>
+        <a href="mailto:federod2001@gmail.com">federod2001@gmail.com</a>
+      </div>
+    </div>
 
     <!-- WEBSITE CONTENT -->
     <main id="main">
@@ -118,77 +193,41 @@
           </div>
         </div>
 
-        <!-- Next post link -->
-        <div class="container text-center top_60 box-animate">
-          <div class="row top_30">
-            <div class="col-xl-12">
-              <a
-                data-type="ajax-load"
-                data-cursor-type="medium"
-                class="next-link"
-                href="work-5.html"
-              >
-                <div data-cursor-type="medium" class="nav-title">
-                  Next content
-                </div>
-                <div data-cursor-type="medium" class="next-title">
-                  Sands Brunswick
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="fixed-signature"
-          data-scroll
-          data-scroll-sticky
-          data-scroll-target="main"
-        >
-          We are Return
-        </div>
-
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-6 footer-info">
-                <p>
-                  You can follow us on
-                  <a href="#" data-cursor-type="medium">Twitter</a>,
-                  <a href="#" data-cursor-type="medium">Facebook</a>,
-                  <a href="#" data-cursor-type="medium">Behance</a> &
-                  <a href="#" data-cursor-type="medium">Dribbble</a>, or say
-                  “hello” at
-                  <a
-                    data-cursor-type="medium"
-                    class="email"
-                    href="mailto:hi@returncreative.com"
-                    >hi@returncreative.com</a
-                  >
-                </p>
-                <div class="copyright">
-                  <p>
-                    Site powered by Tavonline for WordPress – Buy this theme
-                  </p>
-                </div>
-              </div>
-              <div class="col-xl-6 text-right">
-                <div class="uptotop" data-cursor-type="medium">
-                  Back to top<i class="fas fa-angle-up"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
+         <!-- Next post link -->
+   <div class="container text-center top_60 box-animate">
+    <div class="row top_30">
+      <div class="col-xl-12">
+        <a data-type="ajax-load" data-cursor-type="medium" class="next-link" href="work-2.html">
+          <div data-cursor-type="medium" class="nav-title">Next content</div>
+          <div data-cursor-type="medium" class="next-title">Behind the Scenes</div>
+        </a>
       </div>
+    </div>
+  </div>
+  <div class="fixed-signature" data-scroll data-scroll-sticky data-scroll-target="main">We are Return</div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 footer-info">
+            <p>You can follow me on <a href="#" data-cursor-type="medium">Linkedin</a>,</br>
+              or say “hello” at <a data-cursor-type="medium" class="email"
+                href="mailto:federod2001@gmail.com">federod2001@gmail.com</a></p>
+                <div class="copyright">
+                  &copy; Copyright <strong><span>Federico Rodriguez</span></strong>. All Rights Reserved
+                </div>
+          </div>
+          <div class="col-xl-6 text-right">
+            <div class="uptotop" data-cursor-type="medium">Back to top<i class="fas fa-angle-up"></i></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
     </main>
 
     <!-- Javascripts -->
     <script src="js/jquery.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/header.js"></script>
-    <script src="js/rightMenu.js"></script>
-    <script src="js/showCase.js"></script>
   </body>
 </html>

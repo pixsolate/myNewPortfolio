@@ -40,14 +40,91 @@
       <div class="cursor__bg"></div>
     </div>
     <!-- HEADER -->
-    <header class="half-menu"></header>
+    <header class="half-menu">
+      <div class="header-container">
+        <!-- Logo -->
+        <a
+          href="index.html"
+          data-type="ajax-load"
+          class="logo magnetize"
+          data-dist="3"
+          data-cursor-type="medium"
+        >
+          <img
+            class="white-logo"
+            data-dist="4"
+            data-cursor-type="medium"
+            data-cursor-text=""
+            src="images/logo.png"
+            alt=""
+          />
+          <img
+            class="dark-logo"
+            data-dist="4"
+            data-cursor-type="medium"
+            data-cursor-text=""
+            src="images/logo-dark.png"
+            alt=""
+          />
+        </a>
+        <div class="nav-icon magnetize" data-dist="3" data-cursor-type="medium">
+          <div class="nav-icon-inner" data-cursor-type="medium">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- Right Menu -->
     <div
       class="overlay-bg"
       data-cursor-text="CLOSE"
       data-cursor-type="big"
     ></div>
-    <div class="right-menu"></div>
+    <div class="right-menu">
+      <div class="outer">
+        <div class="inner">
+          <div class="row">
+            <!-- Social Links -->
+            <ul class="social col-xl-4 offset-xl-1 col-md-4 offset-md-1">
+              <li class="menu-text">Social</li>
+              <li>
+                <a
+                  data-cursor-type="medium"
+                  href="https://www.linkedin.com/in/federico-rodriguez-197b4182/"
+                  style="cursor: none"
+                  >Linkedin</a
+                >
+              </li>
+            </ul>
+            <!-- Nav Menu -->
+            <nav class="col-xl-6 col-md-6 col-sm-5 offset-sm-1">
+              <ul>
+                <li class="menu-text">Menu</li>
+                <li>
+                  <a
+                    data-type="ajax-load"
+                    data-cursor-type="medium"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a data-cursor-type="medium" href="contact.html"
+                    >Contact Me</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-mail">
+        <div class="menu-text">Email</div>
+        <a href="mailto:federod2001@gmail.com">federod2001@gmail.com</a>
+      </div>
+    </div>
+    <!-- WEBSITE CONTENT -->
     <main id="main">
       <!-- SHOWCASE -->
       <div id="letter-slider">
@@ -190,14 +267,40 @@
         </div>
       </div>
       <!-- SHOWCASE BOTTOM -->
-      <div class="showcase-bottom"></div>
+      <div class="showcase-bottom">
+        <div class="row">
+          <div class="col-xl-6 col-md-6 text-left">
+            <a
+              data-cursor-type="medium"
+              class="allworks-link magnetize"
+              href="contact.html"
+              data-type="ajax-load"
+              data-dist="1"
+              >Say Hello</a
+            >
+          </div>
+          <div class="col-xl-6 col-md-6">
+            <div class="sliding-social">
+              <div class="follow-us">
+                Follow me <i class="far fa-heart"></i>
+              </div>
+              <ul class="social">
+                <li class="magnetize" data-dist="1">
+                  <a
+                    data-cursor-type="medium"
+                    href="https://www.linkedin.com/in/federico-rodriguez-197b4182/"
+                    >In</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <!-- Javascripts -->
     <script src="js/jquery.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/header.js"></script>
-    <script src="js/rightMenu.js"></script>
-    <script src="js/showCase.js"></script>
   </body>
 </html>
