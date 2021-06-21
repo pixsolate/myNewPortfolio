@@ -2156,6 +2156,10 @@ footer .email{
     width: 100%;
 }
 
+.portfolioImg img{
+    width: 100%;
+}
+
 .work-subtext{
     font-size: 60px;
     font-weight: 600;
@@ -2547,6 +2551,11 @@ footer .email{
         margin-bottom: 60px;
         display: inline-block;
     
+    }
+
+    .portfolioImg{
+        margin-bottom: 60px;
+        display: inline-block;
     }
 
     .container.text-center.top_60{
